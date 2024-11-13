@@ -97,7 +97,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(default=
-        'postgresql://ennacher:OpYINe141RDTuPDvRaiDPq5i2AuWtY0X@dpg-cspsustds78s73dc2tig-a.frankfurt-postgres.render.com/ennachertest'
+        'postgresql://ennacher:OpYINe141RDTuPDvRaiDPq5i2AuWtY0X@dpg-cspsustds78s73dc2tig-a/ennachertest'
     )
 }
 
